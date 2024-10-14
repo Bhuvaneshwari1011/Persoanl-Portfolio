@@ -70,7 +70,6 @@ const Projects = () => {
                                     className="w-72 h-72 rounded object-cover shadow-lg"
                                     initial={{ scale: 1 }} // Initial scale
                                     whileHover={{ scale: 1.1 }} // Scale up on hover
-                                    transition={{ duration: 0.3 }} // Smooth transition on hover
                                     animate={{ y: [0, -5, 0] }} // Gentle up-and-down animation
                                     transition={{
                                         duration: 1,
